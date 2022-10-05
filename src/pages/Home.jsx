@@ -17,26 +17,30 @@ const Home = () => {
         </div>
       </div>
       <div className="skills">
-        <h1>Skills</h1>
+        <h1>What I do?</h1>
         <ol className="list">
           <li className="item">
             <h2>FrontEnd</h2>
-            <span>JavaScript, ReactJS, CSS, HTML Provident, error.</span>
+            <span>HTML, CSS, JavaScript, ReactJS, NextJS</span>
+            <p>
+              My goal is to build blazingly fast websites and apps that
+              communicate with your customers in a clear and professional way
+              and help your business grow. Improving myself over and over and
+              learning new technologies is part of my philosophy. Check out my
+              latest projects on GitHub or follow me on social networks
+            </p>
           </li>
           <li className="item">
             <h2>BackEnd</h2>
-            <span>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Excepturi, molestiae.
-            </span>
+            <span>I've experimented a bit with NodeJS.</span>
           </li>
-          <li className="item">
+          {/* <li className="item">
             <h2>Languages</h2>
             <span>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Provident, exercitationem.
             </span>
-          </li>
+          </li> */}
         </ol>
       </div>
     </div>

@@ -13,8 +13,11 @@ const ProjectDisplay = () => {
       <h1>{project.name}</h1>
       <img src={project.image} alt="project" />
       <p>
-        <b> Skills: </b>
+        <b> TechStack: </b>
         {project.skill}
+      </p>
+      <p>
+        <b> Live: </b>
       </p>
       <GitHubIcon />
     </div>
