@@ -5,20 +5,22 @@ import Project4 from '../assets/4.jpg';
 
 export const ProjectList = [
   {
-    name: 'Dijkstra Algorhitm Visualizer',
+    name: 'Dento Team Dental Office',
     image: Project1,
-    skill: 'HTML, CSS, JS',
+    skill: 'Stackbit Visual Editor, CSS, ReactJS,  NEXTJS',
     link: 'https://dentoteam.net',
   },
   {
-    name: 'Dijkstra Algorhitm Visualizer',
+    name: 'Windoor-plast',
     image: Project2,
-    skill: 'React, CSS, JS',
+    skill: 'NextJS, CSS, Sanity',
+    link: 'https://google.net',
   },
   {
-    name: 'Dijkstra Algorhitm Visualizer',
+    name: 'Covid19 Stats Web App',
     image: Project3,
-    skill: 'CSS, JS, NEXTJS',
+    skill: 'HTML, CSS, JS, Firebase',
+    link: 'https://psychonautweb.github.io/covid-stats-app/index.html',
   },
   {
     name: 'Dijkstra Algorhitm Visualizer',

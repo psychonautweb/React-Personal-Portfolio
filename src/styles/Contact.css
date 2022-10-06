@@ -1,0 +1,12 @@
+.contact {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #AB987A;
+    /*21325e*/
+    color: #F5F5F5;
+}

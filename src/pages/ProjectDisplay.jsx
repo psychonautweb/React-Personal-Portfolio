@@ -19,7 +19,7 @@ const ProjectDisplay = () => {
       <p>
         <b> Live: </b>
         <a target="_blank" rel="noreferrer" href={project.link}>
-          www.dentoteam.net
+          {project.name}
         </a>
       </p>
       <GitHubIcon />
