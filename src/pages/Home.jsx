@@ -3,6 +3,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import EmailIcon from '@material-ui/icons/Email';
 import GithubIcon from '@material-ui/icons/GitHub';
 import '../styles/Home.css';
+import Link from '@material-ui/core/Link';
 
 const Home = () => {
   return (
@@ -11,9 +12,16 @@ const Home = () => {
         <h2> Hi, I'm Dubravko </h2>
         <div className="prompt">
           <p>A Web Developer with passion for learning and building</p>
-          <LinkedInIcon />
+          <Link href="https://github.com/psychonautweb" target="_blank">
+            <GithubIcon />
+          </Link>
+          <Link
+            href="https://www.linkedin.com/in/dubravko-%C4%8Daji%C4%87"
+            target="_blank"
+          >
+            <LinkedInIcon />
+          </Link>
           <EmailIcon />
-          <GithubIcon />
         </div>
       </div>
       <div className="skills">

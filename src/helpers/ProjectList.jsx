@@ -8,6 +8,7 @@ export const ProjectList = [
     name: 'Dijkstra Algorhitm Visualizer',
     image: Project1,
     skill: 'HTML, CSS, JS',
+    link: 'https://dentoteam.net',
   },
   {
     name: 'Dijkstra Algorhitm Visualizer',
