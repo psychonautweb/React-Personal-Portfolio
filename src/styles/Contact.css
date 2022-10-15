@@ -8,5 +8,35 @@
     text-align: center;
     background-color: #AB987A;
     /*21325e*/
-    color: #F5F5F5;
+}
+
+form {
+    width: 95%;
+    margin: 1rem auto;
+
+    display: flex;
+    flex-flow: column;
+    gap: 0.5rem;
+
+}
+
+.formElement {
+    display: flex;
+    flex-direction: column;
+}
+
+.formElement input,
+.formElement input:focus {
+    background-color: #efefef;
+}
+
+.formElement label {
+    text-align: left;
+}
+
+textarea {
+    height: 120px;
+    resize: none;
+    padding-top: 15px;
+    background-color: #efefef;
 }

@@ -1,33 +1,37 @@
 import React from 'react';
+import Button from '@mui/material/Button';
 import '../styles/Contact.css';
+import Card from '../components/Card';
 
 const Contact = () => {
   return (
     <div className="contact">
-      <h2 className="">Contact Form</h2>
-      <form>
-        <div className="">
-          <label className="" htmlFor="name">
-            Name
-          </label>
-          <input className="" type="text" id="name" required />
-        </div>
-        <div className="">
-          <label className="" htmlFor="email">
-            Email
-          </label>
-          <input className="" type="email" id="email" required />
-        </div>
-        <div className="">
-          <label className="" htmlFor="message">
-            Message
-          </label>
-          <textarea className="" id="message" required />
-        </div>
-        <button className="" type="submit">
-          Send
-        </button>
-      </form>
+      <h2 className="">Contact Me</h2>
+      <Card>
+        <form>
+          <div className="formElement">
+            <label className="" htmlFor="name">
+              Name
+            </label>
+            <input className="" type="text" id="name" required />
+          </div>
+          <div className="formElement">
+            <label className="" htmlFor="email">
+              Email
+            </label>
+            <input className="" type="email" id="email" required />
+          </div>
+          <div className="formElement">
+            <label className="" htmlFor="message">
+              Message
+            </label>
+            <textarea className="" id="message" required />
+          </div>
+          <Button className="" type="submit">
+            Send
+          </Button>
+        </form>
+      </Card>
     </div>
   );
 };

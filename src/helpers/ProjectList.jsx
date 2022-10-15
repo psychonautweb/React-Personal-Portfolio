@@ -23,8 +23,9 @@ export const ProjectList = [
     link: 'https://psychonautweb.github.io/covid-stats-app/index.html',
   },
   {
-    name: 'Dijkstra Algorhitm Visualizer',
+    name: 'Personal Portfolio',
     image: Project4,
-    skill: 'Sanity, CSS, JS',
+    skill: 'HTML, CSS, JS',
+    link: 'https://psychonautweb.github.io/portfolio/',
   },
 ];

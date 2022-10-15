@@ -21,7 +21,9 @@ const Home = () => {
           >
             <LinkedInIcon />
           </Link>
-          <EmailIcon />
+          <Link href="mailto:contact@dubravko.xyz">
+            <EmailIcon />
+          </Link>
         </div>
       </div>
       <div className="skills">
