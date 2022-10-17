@@ -60,6 +60,7 @@ const Experience = () => {
         >
           <h3 className="vertical-timeline-element-title">NCR Corporation</h3>
           <p>Technical Support Representative</p>
+          <p>Aloha POS Software and Hardware Support</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
@@ -68,7 +69,8 @@ const Experience = () => {
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">IdeaCompiler</h3>
-          <p>Internship - Support role in FinTech project</p>
+          <p>Internship - Supporting role in FinTech project</p>
+          <p>Monitoring SQL Database, File and Data feeds</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>

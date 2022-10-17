@@ -5,6 +5,8 @@ import GithubIcon from '@material-ui/icons/GitHub';
 import '../styles/Home.css';
 import Link from '@material-ui/core/Link';
 
+import Img1 from '../assets/profilePic1.webp';
+
 const Home = () => {
   return (
     <div className="home">
@@ -12,6 +14,15 @@ const Home = () => {
         <h2> Hi, I'm Dubravko </h2>
         <div className="prompt">
           <p>A Web Developer with passion for learning and building</p>
+          <p className="intro">
+            <i>
+              My goal is to build blazingly fast websites and apps that
+              communicate with your customers in a clear and professional way
+              and help your business grow. Improving myself over and over and
+              learning new technologies is part of my philosophy. Check out my
+              latest projects on GitHub or follow me on social networks
+            </i>
+          </p>
           <Link href="https://github.com/psychonautweb" target="_blank">
             <GithubIcon />
           </Link>
@@ -27,18 +38,15 @@ const Home = () => {
         </div>
       </div>
       <div className="skills">
-        <h1>What I do?</h1>
+        <h2>You scrolled to see picture of my face? Here it is.</h2>
+
+        <img width="350px" src={Img1} alt="/" />
+        <h3>A few words about tech stacks that I work with</h3>
+
         <ol className="list">
           <li className="item">
-            <h2>FrontEnd</h2>
-            <span>HTML, CSS, JavaScript, ReactJS, NextJS</span>
-            <p>
-              My goal is to build blazingly fast websites and apps that
-              communicate with your customers in a clear and professional way
-              and help your business grow. Improving myself over and over and
-              learning new technologies is part of my philosophy. Check out my
-              latest projects on GitHub or follow me on social networks
-            </p>
+            <h3>FrontEnd</h3>
+            <span>HTML, CSS / SCSS, JavaScript, ReactJS, NextJS</span>
           </li>
           <li className="item">
             <h2>BackEnd</h2>
