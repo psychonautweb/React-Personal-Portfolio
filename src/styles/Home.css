@@ -74,6 +74,18 @@
     font-size: 20px;
 }
 
+.item {
+    max-width: 450px;
+    margin: 1rem auto;
+    padding: 1rem;
+
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
 @media only screen and (max-width: 660px) {
     .about h2 {
         font-size: 40px;
@@ -95,5 +107,9 @@
 
     .skills h2 {
         font-size: 30px;
+    }
+
+    .item h3 {
+        font-size: 1.5rem;
     }
 }

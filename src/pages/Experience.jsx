@@ -21,7 +21,7 @@ const Experience = () => {
           Library.
         </p>
       </section>
-      <h2>Education</h2>
+      <h2 className="experience-subtitle">Education</h2>
       <VerticalTimeline lineColor="#3e497a">
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
@@ -54,7 +54,7 @@ const Experience = () => {
           <p>Advanced JavaScript and intro to ReactJS</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
-      <h2>Work</h2>
+      <h2 className="experience-subtitle">Work</h2>
       <VerticalTimeline lineColor="#e88963">
         <VerticalTimelineElement
           className="vertical-timeline-element--education"

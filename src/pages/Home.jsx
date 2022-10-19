@@ -5,15 +5,19 @@ import GithubIcon from '@material-ui/icons/GitHub';
 import '../styles/Home.css';
 import Link from '@material-ui/core/Link';
 
+import Typewriter from '../components/Typewriter';
 import Img1 from '../assets/profilePic1.webp';
 
 const Home = () => {
   return (
     <div className="home">
       <div className="about">
-        <h2> Hi, I'm Dubravko </h2>
+        <h2>
+          <Typewriter />
+        </h2>
+        {/* <h2> Hi, I'm Dubravko </h2> */}
         <div className="prompt">
-          <p>A Web Developer with passion for learning and building</p>
+          <p>Web Developer with passion for learning and building</p>
           <p className="intro">
             <i>
               My goal is to build blazingly fast websites and apps that
@@ -48,6 +52,7 @@ const Home = () => {
             <h3>FrontEnd</h3>
             <span>HTML, CSS / SCSS, JavaScript, ReactJS, NextJS</span>
           </li>
+
           <li className="item">
             <h3>BackEnd</h3>
             <span>I've experimented a bit with NodeJS.</span>

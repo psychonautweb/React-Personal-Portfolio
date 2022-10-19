@@ -15,3 +15,7 @@ body {
 .active {
   color: rgb(232, 137, 99) !important;
 }
+
+.typewriter {
+  text-align: center;
+}
