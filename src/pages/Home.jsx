@@ -41,7 +41,7 @@ const Home = () => {
         <h2>You scrolled to see picture of my face? Here it is.</h2>
 
         <img width="350px" src={Img1} alt="/" />
-        <h3>A few words about tech stacks that I work with</h3>
+        <h3>Tech stacks that I work with</h3>
 
         <ol className="list">
           <li className="item">
@@ -49,7 +49,7 @@ const Home = () => {
             <span>HTML, CSS / SCSS, JavaScript, ReactJS, NextJS</span>
           </li>
           <li className="item">
-            <h2>BackEnd</h2>
+            <h3>BackEnd</h3>
             <span>I've experimented a bit with NodeJS.</span>
           </li>
           {/* <li className="item">
