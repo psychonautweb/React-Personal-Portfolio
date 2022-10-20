@@ -2,13 +2,20 @@
     padding: 1rem;
     font-size: 1.2rem;
     color: #0f1626;
-    text-align: justify;
+    text-align: left;
     width: 80%;
     margin: 1rem auto;
     background-color: rgba(211, 168, 112, 0.333);
 
     box-shadow: 0 3px 0 #ddd;
     border-radius: 0.25em;
+    max-width: 500px;
+
+    transition: transform 0.1s ease-in-out;
+}
+
+.experience section p:hover {
+    transform: scale(1.01);
 }
 
 .experience-subtitle {

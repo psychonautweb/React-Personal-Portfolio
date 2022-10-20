@@ -16,9 +16,9 @@ const Experience = () => {
           Hello world and hello dear visitor, I'm Dubravko. Hard working,
           honest, reliable, dedicated and responsible member of the human
           species - but, hey, that's boring part and you already know that ...
-          or do you? :) Currently, I'm fully devoted in learning Web
-          Development, starting with HTML, CSS, JavaScript and the React
-          Library.
+          or do you? :) Currently, I'm working remotely as a contractor and in
+          my free time I'm fully devoted in learning Web Development - JS and
+          React library.
         </p>
       </section>
       <h2 className="experience-subtitle">Education</h2>
