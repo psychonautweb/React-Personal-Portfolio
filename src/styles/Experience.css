@@ -1,11 +1,17 @@
+.experience section {
+    margin-top: 0;
+    padding: 0;
+    background-color: rgb(225, 225, 225);
+}
+
 .experience section p {
+    margin: 0 auto;
     padding: 1rem;
     font-size: 1.2rem;
     color: #0f1626;
     text-align: left;
     width: 80%;
-    margin: 1rem auto;
-    background-color: rgba(211, 168, 112, 0.333);
+    background-color: rgb(236, 229, 216);
 
     box-shadow: 0 3px 0 #ddd;
     border-radius: 0.25em;

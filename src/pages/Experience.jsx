@@ -11,7 +11,7 @@ import '../styles/Experience.css';
 const Experience = () => {
   return (
     <div className="experience">
-      <section>
+      {/* <section>
         <p>
           Hello world and hello dear visitor, I'm Dubravko. Hard working,
           honest, reliable, dedicated and responsible member of the human
@@ -20,7 +20,7 @@ const Experience = () => {
           my free time I'm fully devoted in learning Web Development - JS and
           React library.
         </p>
-      </section>
+      </section> */}
       <h2 className="experience-subtitle">Education</h2>
       <VerticalTimeline lineColor="#3e497a">
         <VerticalTimelineElement

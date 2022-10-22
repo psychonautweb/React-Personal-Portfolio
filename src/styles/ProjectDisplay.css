@@ -7,13 +7,17 @@
     flex-direction: column;
 }
 
-.project h1 {
+.project h1,
+.projects h1:first-child {
     margin-top: 50px;
     color: #3e497a;
     font-size: 35px;
+    text-align: center;
 }
 
-.cancel-icon {}
+.cancel-icon {
+    /* z-index: 9999; */
+}
 
 .project img {
     height: auto;
@@ -34,9 +38,13 @@
     transform: scale(1.01);
 }
 
-.project p {
-    font-size: 40px;
-    color: #3e497a;
+.project-info-wrapper {
+    align-self: center;
+
+}
+
+.project-info {
+    font-size: 1.5rem;
 }
 
 .project svg {

@@ -8,18 +8,21 @@ const Contact = () => {
     <div className="contact">
       <h2 className="">Contact Me</h2>
       <Card>
-        <form>
+        <form
+          action="https://formsubmit.co/385950177b58dbc0d4517333e2c4d2fd"
+          method="POST"
+        >
           <div className="formElement">
             <label className="" htmlFor="name">
               Name
             </label>
-            <input className="" type="text" id="name" required />
+            <input className="" type="text" id="name" name="name" required />
           </div>
           <div className="formElement">
             <label className="" htmlFor="email">
               Email
             </label>
-            <input className="" type="email" id="email" required />
+            <input className="" type="email" id="email" name="email" required />
           </div>
           <div className="formElement">
             <label className="" htmlFor="message">
@@ -27,6 +30,7 @@ const Contact = () => {
             </label>
             <textarea className="" id="message" required />
           </div>
+          <input type="text" name="_honey" style={{ display: 'none' }} />
           <Button className="" type="submit">
             Send
           </Button>

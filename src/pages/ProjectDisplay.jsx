@@ -2,7 +2,6 @@ import React from 'react';
 import '../styles/ProjectDisplay.css';
 import { useNavigate, useParams } from 'react-router-dom';
 import { ProjectList } from '../helpers/ProjectList';
-import GitHubIcon from '@material-ui/icons/GitHub';
 import CancelIcon from '@mui/icons-material/Cancel';
 import { useStyles } from '../components/StyleMUI';
 
@@ -23,17 +22,28 @@ const ProjectDisplay = () => {
         Back
       </CancelIcon>
       <img src={project.image} alt="project" />
-      <p>
-        <b> TechStack: </b>
-        {project.skill}
-      </p>
-      <p>
-        <b> Live: </b>
-        <a target="_blank" rel="noreferrer" href={project.link}>
-          {project.name}
-        </a>
-      </p>
-      <GitHubIcon />
+
+      <ul className="project-info-wrapper">
+        <li>
+          <p className="project-info">
+            <b> TechStack: </b>
+            {project.skill}
+          </p>
+        </li>
+        <li>
+          <p className="project-info">
+            <b> Live: </b>
+            <a target="_blank" rel="noreferrer" href={project.link}>
+              {project.name}
+            </a>
+          </p>
+        </li>
+        <li>
+          <p className="project-info">
+            <b>Code: </b> {project.code}
+          </p>
+        </li>
+      </ul>
     </div>
   );
 };
