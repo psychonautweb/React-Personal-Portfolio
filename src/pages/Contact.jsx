@@ -31,7 +31,14 @@ const Contact = () => {
             <textarea className="" id="message" required />
           </div>
           <input type="text" name="_honey" style={{ display: 'none' }} />
-          <Button className="" type="submit">
+          <Button
+            variant="contained"
+            size="medium"
+            className=""
+            type="submit"
+            color="primary"
+            style={{ width: '80px', margin: 'auto' }}
+          >
             Send
           </Button>
         </form>

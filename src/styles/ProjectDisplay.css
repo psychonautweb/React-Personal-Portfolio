@@ -40,7 +40,10 @@
 
 .project-info-wrapper {
     align-self: center;
+}
 
+.project-info-wrapper li {
+    list-style: none;
 }
 
 .project-info {
@@ -48,6 +51,18 @@
 }
 
 .project svg {
+    margin: 0.5rem;
     font-size: 60px;
     color: #3e497a;
+}
+
+
+@media only screen and (max-width: 540px) {
+    .project-info {
+        font-size: 1rem;
+    }
+
+    .project-info-wrapper {
+        padding: 1rem;
+    }
 }

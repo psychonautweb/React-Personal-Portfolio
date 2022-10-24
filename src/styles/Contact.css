@@ -32,7 +32,7 @@ form {
 
 .formElement input:focus,
 textarea:focus {
-    outline: #ede88a solid 1px;
+    outline: #8aeda6 solid 1px;
 }
 
 .formElement label {
@@ -42,7 +42,6 @@ textarea:focus {
 textarea {
     height: 120px;
     resize: none;
-    padding-top: 15px;
     background-color: #f5f5f5;
 
     border: 1px solid #e2e1e1;

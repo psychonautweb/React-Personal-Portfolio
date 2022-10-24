@@ -11,9 +11,9 @@ function App() {
 
             .typeString('Welcome!')
 
-            .pauseFor(1000)
+            .pauseFor(500)
             .deleteAll()
-            .typeString("Hi, I'm Dubravko")
+            .typeString("I'm Dubravko")
             .start();
         }}
       />

@@ -31,7 +31,7 @@ export default function Footer() {
           <LinkedInIcon className={classes.customHover} />
         </Link>
       </div>
-      <p> &copy; 2022 dubravko.xyz </p>
+      <p> &copy; 2022 dubravko.xyz. Made with ReactJS </p>
     </div>
   );
 }
