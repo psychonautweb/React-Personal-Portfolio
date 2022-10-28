@@ -25,9 +25,12 @@ form {
 }
 
 .formElement input {
+    height: 2.5rem;
     background-color: #f5f5f5;
-
     border: 1px solid #e2e1e1;
+
+    margin: 1rem 0;
+
 }
 
 .formElement input:focus,
@@ -37,9 +40,13 @@ textarea:focus {
 
 .formElement label {
     text-align: left;
+    font-size: 1.5rem;
+
 }
 
 textarea {
+    margin: 1rem 0;
+
     height: 120px;
     resize: none;
     background-color: #f5f5f5;

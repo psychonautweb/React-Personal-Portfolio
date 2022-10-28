@@ -17,9 +17,11 @@ const Home = () => {
         </h2>
         {/* <h2> Hi, I'm Dubravko </h2> */}
         <div className="prompt">
-          <p>Web Developer with passion for learning and building</p>
+          <p className="home-subtitle">
+            Web Developer with passion for learning and building
+          </p>
           <p className="intro">
-            <i>
+            <i className="font-link">
               My goal is to build blazingly fast websites and apps that
               communicate with your customers in a clear and professional way
               and help your business grow. Improving myself over and over and
@@ -27,25 +29,27 @@ const Home = () => {
               latest projects on GitHub or follow me on social networks
             </i>
           </p>
-          <Link href="https://github.com/psychonautweb" target="_blank">
-            <GithubIcon />
-          </Link>
-          <Link
-            href="https://www.linkedin.com/in/dubravko-%C4%8Daji%C4%87"
-            target="_blank"
-          >
-            <LinkedInIcon />
-          </Link>
-          <Link href="mailto:contact@dubravko.xyz">
-            <EmailIcon />
-          </Link>
+          <aside>
+            <Link href="https://github.com/psychonautweb" target="_blank">
+              <GithubIcon />
+            </Link>
+            <Link
+              href="https://www.linkedin.com/in/dubravko-%C4%8Daji%C4%87"
+              target="_blank"
+            >
+              <LinkedInIcon />
+            </Link>
+            <Link href="mailto:contact@dubravko.xyz">
+              <EmailIcon />
+            </Link>
+          </aside>
         </div>
       </div>
       <div className="skills">
         <h2>You scrolled to see picture of my face? Here it is.</h2>
 
         <img width="350px" src={Img1} alt="/" />
-        <h3>Tech stacks that I work with</h3>
+        <h3>Tech stacks that I work with and learn</h3>
 
         <ol className="list">
           <li className="item">

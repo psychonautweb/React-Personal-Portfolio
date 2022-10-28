@@ -64,6 +64,14 @@
         width: 120px;
         text-align: center;
     }
+
+    .links {
+        justify-content: space-between;
+    }
+
+    .links a:nth-child(3) {
+        font-size: 23px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -77,6 +85,10 @@
 
     .links {
         height: 0;
+    }
+
+    .intro {
+        font-size: 13px;
     }
 
 }

@@ -1,9 +1,17 @@
+/* GOOGLE FONT */
+
+.font-link {
+  font-family: 'Fira Mono', monospace;
+}
+
+/*  -------- */
+
 .App {
   width: 100%;
   height: auto;
   display: flex;
   flex-direction: column;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Fira Mono', monospace;
   background-color: #f5f5f5;
 }
 
