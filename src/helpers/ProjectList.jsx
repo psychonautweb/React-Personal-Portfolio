@@ -1,7 +1,8 @@
 import Project1 from '../assets/1.png';
 import Project2 from '../assets/2.jpg';
 import Project3 from '../assets/3.webp';
-import Project4 from '../assets/4.jpg';
+import Project4 from '../assets/4.webp';
+import Project5 from '../assets/5.webp';
 
 export const ProjectList = [
   {
@@ -26,9 +27,16 @@ export const ProjectList = [
     code: 'https://github.com/psychonautweb/covid-stats-app',
   },
   {
-    name: 'Personal Portfolio',
+    name: 'Personal Portfolio v1',
     image: Project4,
     skill: 'HTML, CSS, JS',
+    link: 'https://psychonautweb.github.io/portfolio/',
+    code: 'dubravko.xyz',
+  },
+  {
+    name: 'Personal Portfolio v2',
+    image: Project5,
+    skill: 'React, CSS, MUI',
     link: 'https://psychonautweb.github.io/portfolio/',
     code: 'dubravko.xyz',
   },
