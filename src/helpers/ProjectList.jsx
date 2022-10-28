@@ -10,7 +10,7 @@ export const ProjectList = [
     image: Project1,
     skill: 'Stackbit Visual Editor, CSS, ReactJS,  NEXTJS',
     link: 'https://dentoteam.net',
-    code: 'https://github.com/psychonautweb/portfolio',
+    code: '/',
   },
   {
     name: 'Windoor-plast',
@@ -30,14 +30,14 @@ export const ProjectList = [
     name: 'Personal Portfolio v1',
     image: Project4,
     skill: 'HTML, CSS, JS',
-    link: 'https://psychonautweb.github.io/portfolio/',
-    code: 'dubravko.xyz',
+    link: 'https://dubravkocajic.onrender.com/',
+    code: 'https://psychonautweb.github.io/portfolio/',
   },
   {
     name: 'Personal Portfolio v2',
     image: Project5,
     skill: 'React, CSS, MUI',
-    link: 'https://psychonautweb.github.io/portfolio/',
-    code: 'dubravko.xyz',
+    link: 'dubravko.xyz',
+    code: 'https://github.com/psychonautweb/React-Personal-Portfolio',
   },
 ];

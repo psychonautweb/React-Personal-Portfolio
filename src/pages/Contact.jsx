@@ -28,7 +28,7 @@ const Contact = () => {
             <label className="" htmlFor="message">
               Message
             </label>
-            <textarea className="" id="message" required />
+            <textarea className="" id="message" name="message" required />
           </div>
           <input type="text" name="_honey" style={{ display: 'none' }} />
           <Button

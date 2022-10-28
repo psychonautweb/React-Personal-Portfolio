@@ -46,7 +46,7 @@ const Home = () => {
         </div>
       </div>
       <div className="skills">
-        <h2>You scrolled to see picture of my face? Here it is.</h2>
+        <h2>You scrolled to see picture of my face? Here it is :)</h2>
 
         <img width="350px" src={Img1} alt="/" />
         <h3>Tech stacks that I work with and learn</h3>
