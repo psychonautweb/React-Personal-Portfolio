@@ -29,5 +29,6 @@
 
     .footer p {
         font-size: .8rem;
+        margin: 0 2rem;
     }
 }

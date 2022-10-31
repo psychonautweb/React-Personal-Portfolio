@@ -76,3 +76,10 @@
         height: 300px;
     }
 }
+
+@media only screen and (max-width: 400px) {
+    .projectItem {
+        height: 85%;
+        width: 85%;
+    }
+}
