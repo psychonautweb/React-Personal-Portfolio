@@ -1,6 +1,6 @@
 .contact {
     width: 100%;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 10px);
     display: flex;
     flex-direction: column;
     justify-content: center;
