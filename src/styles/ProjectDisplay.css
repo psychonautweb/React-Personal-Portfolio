@@ -22,7 +22,7 @@
 .project img {
     height: auto;
     width: 700px;
-    max-width: 90%;
+    max-width: 95%;
     border-radius: 10px;
 
     transition: transform 0.2s;
@@ -39,15 +39,20 @@
 }
 
 .project-info-wrapper {
+    max-width: 95%;
     align-self: center;
+    margin: 0;
+    padding: 0;
 }
 
 .project-info-wrapper li {
+    margin: auto;
     list-style: none;
 }
 
 .project-info {
     font-size: 1.5rem;
+    word-wrap: break-word;
 }
 
 .project svg {
@@ -60,9 +65,11 @@
 @media only screen and (max-width: 540px) {
     .project-info {
         font-size: 1rem;
+        word-wrap: break-word;
     }
 
     .project-info-wrapper {
-        padding: 1rem;
+        margin: 1rem auto;
+        max-width: 95%;
     }
 }
