@@ -73,7 +73,7 @@ const Experience = () => {
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">IdeaCompiler</h3>
-          <p>Internship - Supporting role in FinTech project</p>
+          <p>Support role in FinTech project</p>
           <p>Monitoring SQL Database, File and Data feeds</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
