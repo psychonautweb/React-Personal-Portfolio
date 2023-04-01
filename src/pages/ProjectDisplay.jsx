@@ -40,7 +40,16 @@ const ProjectDisplay = () => {
         </li>
         <li>
           <p className="project-info">
-            <b>Code: </b> {project.code}
+            {project.code ? (
+              <b>
+                Code:{' '}
+                <a href={project.code} target="_blank" rel="noreferrer">
+                  Github
+                </a>
+              </b>
+            ) : (
+              ''
+            )}
           </p>
         </li>
       </ul>

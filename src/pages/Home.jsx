@@ -59,7 +59,7 @@ const Home = () => {
 
           <li className="item">
             <h3>BackEnd</h3>
-            <span>I've experimented a bit with NodeJS.</span>
+            <span>I've experimented a bit with NodeJS and Python.</span>
           </li>
           {/* <li className="item">
             <h2>Languages</h2>

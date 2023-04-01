@@ -1,23 +1,21 @@
 import Project1 from '../assets/1.png';
-import Project2 from '../assets/2.jpg';
+import Project2 from '../assets/2.webp';
 import Project3 from '../assets/3.webp';
 import Project4 from '../assets/4.webp';
 import Project5 from '../assets/5.webp';
 
 export const ProjectList = [
   {
-    name: 'Dento Team Dental Office',
+    name: 'Dento Team Dental Clinic',
     image: Project1,
-    skill: 'Stackbit Visual Editor, CSS, ReactJS,  NEXTJS',
+    skill: 'Stackbit Visual Editor, CSS, ReactJS',
     link: 'https://dentoteam.net',
-    code: '/',
   },
   {
-    name: 'Windoor-plast',
+    name: 'Dentist-O Dental Clinic',
     image: Project2,
-    skill: 'NextJS, CSS, Sanity',
-    link: 'https://windoorplast.com',
-    code: 'Work In Progress',
+    skill: 'NextJS, SCSS, CSS, React',
+    link: 'https://dentist-o.com',
   },
   {
     name: 'Covid19 Stats Web App',
